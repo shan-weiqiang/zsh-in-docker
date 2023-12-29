@@ -114,8 +114,9 @@ zshrc_template() {
     fi
 
     cat <<EOM
-export LANG='zh_CH.UTF-8'
-export LC_ALL='zh_CH.UTF-8'
+export LANG='en_US.UTF-8'
+export LANGUAGE='en_US:en'
+export LC_ALL='en_US.UTF-8'
 export TERM=xterm
 
 ##### Zsh/Oh-my-Zsh Configuration
